@@ -11,15 +11,16 @@ function Project({ project, i }) {
                 <p>{project.description}</p>
             </div>
             <div className="flex-row">
-                <img src={require(`../../assets/images/proj-${i+1}.png`)}></img>
+                <img src={require(`../../assets/images/proj-${i+1}.png`).default} alt="project completed by myself"></img>
             </div>
             <div className="flex-row">
-                <a href={project.link} target="blank">
-                    <p>Visit Deployed Application</p>
-                </a>
-                <a href={project.github} target="blank">
-                    <p>Visit Github Repository</p>
-                </a>
+                <p><a href={project.link} target="blank">
+                    Visit Deployed Application
+                </a></p>
+                <p><a href={project.github} target="blank">
+                    Visit Github Repository
+                </a></p>
+            
             </div>
         </div>
     );

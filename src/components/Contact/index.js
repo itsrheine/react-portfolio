@@ -1,27 +1,10 @@
 import React, { useState } from 'react';
 
 function Contact() {
-    const [formstate, setFormState] = useState({ name: '', email: '', message: '' });
+    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
     function handleChange(e) {
-        setFormState({...formstate, [e.target.name]: e.target.value })
-        if (e.target.name === 'email') {
-            const isValid = validateEmail(e.target.value);
-            // console.log(isValid);
-            // isValid conditional statement
-            if (!isValid) {
-                setErrorMessage('Your email is invalid.');
-            } else {
-                if (!e.target.value.length) {
-                    setErrorMessage(`${e.target.name} is required.`);
-                } else {
-                    setErrorMessage('');
-                }
-            }
-        }
-        if (!errorMessage) {
-            setFormState({ ...formState, [e.target.name]: e.target.value });
-        }
+        setFormState({...formState, [e.target.name]: e.target.value })
     }
 
     function handleSubmit(e) {
@@ -45,11 +28,6 @@ function Contact() {
               <label htmlFor="message">Message:</label>
               <textarea name="message" defaultValue={formState.message} onChange={handleChange} rows="5"  />
           </div>
-          {errorMessage && (
-          <div>
-              <p className="error-text">{errorMessage}</p>
-          </div>
-          )}
           <button type="submit" onSubmit={handleSubmit}>Submit</button>
         </form>
       </section>

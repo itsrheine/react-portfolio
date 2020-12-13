@@ -8,7 +8,7 @@ import './App.css';
 function App() {
     const [categories] = useState([
         { name: 'About' },
-        { name: 'Work' },
+        { name: 'Portfolio' },
         { name: 'Contact' },
         { name: 'Resume' }
     ]);
@@ -32,3 +32,5 @@ function App() {
         </div>
     );
 }
+
+export default App;

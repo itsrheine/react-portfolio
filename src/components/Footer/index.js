@@ -11,8 +11,8 @@ function Footer() {
                 <div class="column">
                     <h4>Connect with Me</h4>
                     <p>
-                        <a href="https://www.github.com/itsrheine" target="blank"><img src={Github}></img></a>
-                        <a href="https://www.linkedin.com/in/marrionenguyen/" target="blank"><img src={LinkedIn}></img></a>
+                        <a href="https://www.github.com/itsrheine" target="blank"><img src={Github} alt="github"></img></a>
+                        <a href="https://www.linkedin.com/in/marrionenguyen/" target="blank"><img src={LinkedIn} alt="linkedin"></img></a>
                     </p>
                 </div>
             </div>

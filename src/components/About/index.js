@@ -6,7 +6,7 @@ function About() {
     return (
         <div>
             <div>
-                <img className="defaultPhoto" src={defaultPhoto}></img>
+                <img className="defaultPhoto" src={defaultPhoto} alt="Me at an event"></img>
             </div>
             <div>
                 <h2>About Me</h2>
