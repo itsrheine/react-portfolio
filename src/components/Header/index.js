@@ -2,14 +2,16 @@ import React from 'react';
 
 function Header(props) {
     return (
-        <header className="flex-row px-1">
-            <h2>
-                <a href="/">
-                    rheine.nguyen
-                </a>
-                {props.children}
-            </h2>
-        </header>
+        <div id="header">
+            <div class="container">
+                    <a href="/" id="header-title">
+                        rheine.nguyen
+                    </a>
+                    <ul id="header-nav">
+                    {props.children}
+                    </ul>
+            </div>
+        </div>
     );
 }
 

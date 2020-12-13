@@ -18,7 +18,7 @@ function App() {
     return (
         <div>
             <Header>
-                <Navigation
+                <Navigation id="header-title"
                     categories={categories}
                     setCurrentCategory={setCurrentCategory}
                     currentCategory={currentCategory}
