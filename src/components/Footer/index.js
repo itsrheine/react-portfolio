@@ -1,4 +1,6 @@
 import React from 'react';
+import Github from '../../assets/images/github.png';
+import LinkedIn from '../../assets/images/linkedin.png';
 
 
 function Footer() {
@@ -17,3 +19,5 @@ function Footer() {
         </div>
     )
 }
+
+export default Footer;
