@@ -1,11 +1,34 @@
 import React, { useState } from 'react';
+import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+    const [errorMessage, setErrorMessage] = useState('');
+    const { name, email, message } = formState;
 
     function handleChange(e) {
-        setFormState({ ...formState, [e.target.name]: e.target.value })
+        if (e.target.name === 'email') {
+            const isValid = validateEmail(e.target.value);
+
+            if (!isValid) {
+                setErrorMessage('requires a valid email');
+            } else {
+                setErrorMessage('');
+            }
+
+        } else {
+            if (!e.target.value.length) {
+                setErrorMessage(`${e.target.name} is required.`);
+            } else {
+                setErrorMessage('');
+            }
+        }
+
+        if (!errorMessage) {
+            setFormState({ ...formState, [e.target.name]: e.target.value })
+        }
     }
+
 
     function handleSubmit(e) {
         e.preventDefault();
@@ -21,18 +44,26 @@ function Contact() {
                     </div>
                     <form id="contact-form">
                         <div>
-                            <label htmlFor="name">Name: </label>
-                            <input type="text" defaultValue={formState.name} name="name" onChange={handleChange} />
+                            <label htmlFor="name">Name:</label><br></br>
+                            <input className="form-control" type="text" name="name" defaultValue={name} onBlur={handleChange} />
+                        </div>
+                        <div >
+                            <label htmlFor="email">Email Address:</label><br></br>
+                            <input className="form-control" type="email" name="email" defaultValue={email} onBlur={handleChange} />
                         </div>
                         <div>
-                            <label htmlFor="email">Email address: </label>
-                            <input type="email" defaultValue={formState.email} name="email" onChange={handleChange} />
+                            <label htmlFor="message">Message:</label><br></br>
+                            <textarea className="form-control textmessage" name="message" defaultValue={message} onBlur={handleChange} rows="7" />
                         </div>
+                        {errorMessage && (
+                            <div>
+                                <p className="error-text">{errorMessage}</p>
+                            </div>
+                        )}
+
                         <div>
-                            <label htmlFor="message">Message: </label>
-                            <textarea name="message" defaultValue={formState.message} onChange={handleChange} rows="5" />
+                            <button data-testid='button' className="btn btn-outline-dark mt-4" type="submit" onSubmit={handleSubmit}>Submit</button>
                         </div>
-                        <button type="submit" onSubmit={handleSubmit}>Submit</button>
                     </form>
                 </div>
             </div>

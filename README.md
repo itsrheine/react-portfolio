@@ -18,8 +18,8 @@
 # Built With
 - Javascript
 - React
-- HTML, CSS
-- 
+- HTML
+- CSS
 
 # Installation
 - Cloning of the repository is an option. Otherwise, visiting the deployed website is fine.

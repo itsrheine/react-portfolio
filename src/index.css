@@ -328,6 +328,7 @@ body {
   color: #555;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  min-height: 100%;
 }
 #header {
     background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
@@ -352,6 +353,11 @@ body {
   padding-left: 20px;
   font-weight: bold;
 }
+
+#header-nav .navActive a {
+  color:  #222 !important; 
+}
+
 #header a {
   color: white;
   text-decoration: none;
@@ -448,3 +454,8 @@ img {
 span[role="img"] {
     cursor: default;
 }
+
+.textmessage {
+  width: 50%;
+}
+
