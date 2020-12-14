@@ -27,6 +27,18 @@ function Portfolio() {
             link: 'https://protected-basin-21646.herokuapp.com/',
             github: 'https://github.com/itsrheine/budget-tracker'
         },
+        {
+            name: 'Weather Dashboard',
+            description: 'OpenWeather API Web Application',
+            link: 'https://itsrheine.github.io/weather-app/',
+            github: 'https://github.com/itsrheine/weather-app/'
+        },
+        {
+            name: 'Team Profile Generator',
+            description: 'Node based generator producing a web output',
+            link: 'https://github.com/itsrheine/team-profile-generator',
+            github: 'https://github.com/itsrheine/team-profile-generator'
+        },
     ])
 
     return (

@@ -10,7 +10,7 @@ function About() {
                     <div class="about-author">
                         <img className="defaultPhoto" src={defaultPhoto} alt="Me at an event" ></img>
                     </div>
-                    <h3 class="post-title">Becoming a web developer</h3>
+                    <h3 class="post-title">About Me</h3>
                     <div class="post-content">
                         <p>My name is Marrione Nguyen, my friends and family call me 'Rheine'.  I am a Technical Writer for compliance and product testing industry. As a Technical Writer (focused on Environmental Simulation Testing), I am responsible for reviewing and compiling data
                             that was collected by the engineers.  During my years as a technical writer, I gained a wide-range of knowledge and understanding about complaince testing.  As a result, I am able to tell if the engineer correctly declared if a product is complaint or non-compliant.
