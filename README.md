@@ -15,7 +15,7 @@
 - [Questions](#questions)
 
 # Description
-
+This is my new portfolio created with React.  This portfolio contains information about myself, my recent works and resume.
 
 # Built With
 - Javascript
