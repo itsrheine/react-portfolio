@@ -352,11 +352,11 @@ body {
 #header-nav li {
   display: inline;
   padding-left: 20px;
+  font-weight: bold;
 }
 #header a {
   color: white;
   text-decoration: none;
-
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -410,7 +410,7 @@ a:hover {
   width: 100px;
   height: 100px;
   vertical-align: middle;
-  border-radius: 50%
+  border-radius: 50%;
 }
 .post-author span {
   margin-left: 16px;
