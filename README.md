@@ -24,14 +24,14 @@
 # Installation
 - Cloning of the repository is an option. Otherwise, visiting the deployed website is fine.
 - Install npm packages by running 'npm i' in your terminal
-- Run 'npm start' to begin testing
+- Run 'npm start' to begin application
 
 # Links
 - Link to repository: https://github.com/itsrheine/react-portfolio
-- Link to website: 
+- Link to website: https://itsrheine.github.io/react-portfolio/
 
 # Screenshot
--
+![Screenshot]()
 
 
 # Questions
