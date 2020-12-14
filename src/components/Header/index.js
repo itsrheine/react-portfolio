@@ -5,7 +5,7 @@ function Header(props) {
         <div id="header">
             <div class="container">
                     <a href="/" id="header-title">
-                        rheine.nguyen
+                        rheine<a href='/'>.</a>nguyen
                     </a>
                     <ul id="header-nav">
                     {props.children}
