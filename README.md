@@ -2,7 +2,9 @@
 
 # License
   
-![License: ](https://img.shields.io/badge/javascript-100-0298c3.svg)
+![License: ](https://img.shields.io/badge/javascript-67.5-0298c3.svg)
+![License: ](https://img.shields.io/badge/html-6.3-0298c3.svg)
+![License: ](https://img.shields.io/badge/css-26.2-0298c3.svg)
 
 # Table of Contents
 
