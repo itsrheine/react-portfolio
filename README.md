@@ -31,7 +31,7 @@
 - Link to website: https://itsrheine.github.io/react-portfolio/
 
 # Screenshot
-![Screenshot]()
+![Screenshot](src/assets/images/ss.PNG)
 
 
 # Questions
