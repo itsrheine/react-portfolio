@@ -30,15 +30,22 @@ function Portfolio() {
     ])
 
     return (
-        <div>
-            <h1>Portfolio</h1>
-            <div>
-                {projects.map((project, i) => (
-                    <Project
-                        project={project}
-                        i={i}
-                    />
-                ))}
+        <div id="content">
+            <div class="post-container">
+                <div class="post">
+                    <div class="post-author">
+                        <h1>Portfolio</h1>
+                    </div>
+                    
+                    <div>
+                        {projects.map((project, i) => (
+                            <Project
+                                project={project}
+                                i={i}
+                            />
+                        ))}
+                    </div>
+                </div>
             </div>
         </div>
     );

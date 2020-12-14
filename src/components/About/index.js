@@ -14,6 +14,7 @@ function About() {
                     <h3 class="post-title">Becoming a web developer</h3>
                     <div class="post-content">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis vel libero doloremque, iure velit dolores harum rerum facilis fugit corporis voluptates consequuntur ex id earum quisquam inventore, molestiae odit! Earum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis vel libero doloremque, iure velit dolores harum rerum facilis fugit corporis voluptates consequuntur ex id earum quisquam inventore, molestiae odit! Earum!</p>
                     </div>
                 </div>
             </div>
