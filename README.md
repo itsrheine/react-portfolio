@@ -35,7 +35,3 @@ This is my new portfolio created with React.  This portfolio contains informatio
 # Screenshot
 ![Screenshot](src/assets/images/ss.PNG)
 
-# Questions
-If you have any questions or concerns, please feel free to reach out to my:
-- Email: [mtiamsic@gmail.com](mtiamsic@gmail.com)
-- Github: [itsrheine](https://github.com/itsrheine)
