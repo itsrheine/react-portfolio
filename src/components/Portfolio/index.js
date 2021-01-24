@@ -28,17 +28,11 @@ function Portfolio() {
             github: 'https://github.com/itsrheine/budget-tracker'
         },
         {
-            name: 'Weather Dashboard',
-            description: 'OpenWeather API Web Application',
-            link: 'https://itsrheine.github.io/weather-app/',
-            github: 'https://github.com/itsrheine/weather-app/'
-        },
-        {
-            name: 'Team Profile Generator',
-            description: 'Node based generator producing a web output',
-            link: 'https://github.com/itsrheine/team-profile-generator',
-            github: 'https://github.com/itsrheine/team-profile-generator'
-        },
+            name: 'TransferCard',
+            description: 'A virtual train ticket app',
+            link: 'https://transfercard.herokuapp.com/',
+            github: 'https://github.com/itsrheine/transferCard'
+        }
     ])
 
     return (
