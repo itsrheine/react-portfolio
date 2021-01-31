@@ -1,14 +1,15 @@
 import React from 'react';
 import Contact from '../Contact';
 import About from '../About';
-import Portfolio from '../Portfolio';
+// import Portfolio from '../Portfolio';
 import Resume from '../Resume';
+import Carousel from '../Carousel';
 
 function Gallery ({ currentCategory }) {
     const renderPage = () => {
         switch(currentCategory.name) {
             case 'Portfolio':
-                return <Portfolio />;
+                return <Carousel />;
             case 'Contact':
                 return <Contact />;
             case 'Resume':
